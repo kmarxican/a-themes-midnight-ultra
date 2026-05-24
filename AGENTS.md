@@ -1,0 +1,21 @@
+# AGENTS.md
+
+## Repo type
+VS Code color theme extension — no build step, no dependencies, no tests.
+
+## Theme file
+- `themes/Midnight Ultra by A-Themes-color-theme.json` — the only meaningful source file.
+- Format: VS Code theme JSON with `colors` (workbench) and `tokenColors` (TextMate scopes).
+- `semanticHighlighting` is enabled — semantic tokens are supported.
+- Theme is registered in `package.json` under `contributes.themes`.
+
+## Dev workflow
+- Press F5 (or use the `Extension` launch config in `.vscode/launch.json`) to open an Extension Development Host window with the theme loaded.
+- Changes to the theme JSON are **auto-applied** to the extension host — no reload needed.
+- Use `Developer: Inspect Editor Tokens and Scopes` (Cmd+Shift+P) to debug scopes.
+- Use `Preferences: Color Theme` (Cmd+K Cmd+T) to activate the theme in the host window.
+
+## Packaging
+- Install: copy the extension dir into `<user home>/.vscode/extensions` and restart Code.
+- Publish: use `vsce package` to create a `.vsix` file (ignored by git).
+- `.vscodeignore` excludes metadata files from the `.vsix` package.

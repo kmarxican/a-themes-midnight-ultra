@@ -1,0 +1,46 @@
+{
+  "name": "Midnight Ultra by The A-Themes",
+  "type": "dark",
+  "semanticHighlighting": true,
+  "colors": {
+    "focusBorder": "#428BDD99",
+    "foreground": "#D1EDFF",
+    "descriptionForeground": "#8FA7B8",
+    "errorForeground": "#F92672",
+    "icon.foreground": "#D1EDFF",
+    "sash.hoverBorder": "#428BDD",
+    "selection.background": "#314D67",
+    "window.activeBorder": "#253540",
+    "window.inactiveBorder": "#0A1220",
+    "textBlockQuote.background": "#132238",
+    "textBlockQuote.border": "#253540",
+    "textCodeBlock.background": "#0A1220",
+    "textLink.activeForeground": "#44DDDD",
+    "textLink.foreground": "#AE81FF",
+    "textPreformat.foreground": "#D1EDFF",
+    "textSeparator.foreground": "#253540",
+    "button.background": "#253540",
+    "button.foreground": "#D1EDFF",
+    "button.hoverBackground": "#314D67",
+    "button.secondaryBackground": "#132238",
+    "button.secondaryForeground": "#D1EDFF",
+    "button.secondaryHoverBackground": "#1A2A3D",
+    "checkbox.background": "#0A1220",
+    "checkbox.border": "#314D67",
+    "checkbox.foreground": "#D1EDFF",
+    "dropdown.background": "#0A1220",
+    "dropdown.border": "#314D67",
+    "dropdown.foreground": "#D1EDFF"
+  },
+  "tokenColors": [
+    {
+      "name": "Comment",
+      "scope": "comment",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#428BDD"
+      }
+    }
+  ],
+  "semanticTokenColors": {}
+}
