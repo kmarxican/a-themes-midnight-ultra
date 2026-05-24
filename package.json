@@ -3,8 +3,22 @@
   "displayName": "A-Themes: Midnight.Ultra",
   "description": "A full VS Code dark theme based on the JavaScript Garden and CodeMirror Midnight palette.",
   "version": "0.0.1",
-  "publisher": "The A-Themes",
+  "publisher": "kmarxican",
   "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kmarxican/a-themes-midnight-ultra.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kmarxican/a-themes-midnight-ultra/issues"
+  },
+  "homepage": "https://github.com/kmarxican/a-themes-midnight-ultra#readme",
+  "keywords": [
+    "dark",
+    "midnight",
+    "theme",
+    "a-themes"
+  ],
   "engines": {
     "vscode": "^1.118.0"
   },
