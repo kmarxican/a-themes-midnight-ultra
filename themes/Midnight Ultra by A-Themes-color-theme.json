@@ -897,6 +897,116 @@
         "foreground": "#44DDDD"
       }
     },
+
+    {
+      "name": "Types, Enums, Namespaces",
+      "scope": [
+        "entity.name.type",
+        "entity.name.type.alias",
+        "entity.name.type.parameter",
+        "entity.name.enum",
+        "entity.name.namespace",
+        "entity.name.module"
+      ],
+      "settings": {
+        "foreground": "#44DDDD"
+      }
+    },
+    {
+      "name": "Import / Export Keywords",
+      "scope": [
+        "keyword.control.import",
+        "keyword.control.export",
+        "keyword.control.from"
+      ],
+      "settings": {
+        "foreground": "#E83737"
+      }
+    },
+    {
+      "name": "Import / Export Meta",
+      "scope": [
+        "meta.import",
+        "meta.export"
+      ],
+      "settings": {
+        "foreground": "#AE81FF"
+      }
+    },
+    {
+      "name": "Logical Operators",
+      "scope": [
+        "keyword.operator.logical"
+      ],
+      "settings": {
+        "foreground": "#E83737"
+      }
+    },
+    {
+      "name": "Method Calls",
+      "scope": [
+        "meta.method-call",
+        "meta.function-call.method"
+      ],
+      "settings": {
+        "foreground": "#44DDDD"
+      }
+    },
+    {
+      "name": "Constants",
+      "scope": [
+        "variable.other.constant",
+        "variable.other.readwrite",
+        "support.variable.magic",
+        "constant.language.boolean"
+      ],
+      "settings": {
+        "foreground": "#AE81FF"
+      }
+    },
+    {
+      "name": "Type Annotations",
+      "scope": [
+        "storage.type.annotation",
+        "storage.type.function",
+        "meta.definition.property"
+      ],
+      "settings": {
+        "foreground": "#AE81FF"
+      }
+    },
+    {
+      "name": "JSX React Environment",
+      "scope": [
+        "meta.environment.react",
+        "meta.tag.jsx"
+      ],
+      "settings": {
+        "foreground": "#44DDDD"
+      }
+    },
+    {
+      "name": "Rust Macros",
+      "scope": [
+        "meta.macro.rust",
+        "entity.name.function.macro.rust"
+      ],
+      "settings": {
+        "foreground": "#AE81FF"
+      }
+    },
+    {
+      "name": "Python Types",
+      "scope": [
+        "support.type.python",
+        "entity.name.type.class.python",
+        "support.variable.magic.python"
+      ],
+      "settings": {
+        "foreground": "#44DDDD"
+      }
+    },
+
     {
       "name": "Markdown - Plain",
       "scope": [
@@ -1098,6 +1208,8 @@
   ],
   "semanticTokenColors": {
     "class": { "foreground": "#44DDDD", "bold": true },
+    "class.defaultLibrary": "#44DDDD",
+    "decorator": "#AE81FF",
     "enum": "#44DDDD",
     "enumMember": "#AE81FF",
     "event": "#44DDDD",
@@ -1116,8 +1228,11 @@
     "string": "#1DC116",
     "struct": "#44DDDD",
     "type": "#44DDDD",
+    "type.defaultLibrary": "#44DDDD",
     "typeParameter": "#44DDDD",
     "variable": "#FFAA3E",
-    "variable.readonly": "#AE81FF"
+    "variable.defaultLibrary": "#FFAA3E",
+    "variable.readonly": "#AE81FF",
+    "variable.readonly.defaultLibrary": "#AE81FF"
   }
 }

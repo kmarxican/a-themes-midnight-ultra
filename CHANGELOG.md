@@ -4,6 +4,13 @@ All notable changes to the "a-themes-midnight-ultra" extension will be documente
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+
+## [0.2.0] - 2026-05-25
+- Added 100+ modern UI workbench colors (settings, notebook, test explorer, command center, inline chat, symbol icons, etc.)
+- Added terminal ANSI color palette
+- Added missing TextMate token scopes for TypeScript, Python, Rust, JSX, and import/export
+- Expanded semantic token colors (defaultLibrary, decorator, etc.)
+
 ## [0.1.0] - 2026-05-24
 
 ### Added
