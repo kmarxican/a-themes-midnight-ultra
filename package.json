@@ -1,9 +1,9 @@
 {
   "name": "a-themes-midnight-ultra",
-  "displayName": "A-Themes: Midnight.Ultra",
+  "displayName": "The A-Themes: Midnight.Ultra",
   "description": "A full VS Code dark theme based on the JavaScript Garden and CodeMirror Midnight palette.",
-  "version": "0.2.0",
-  "publisher": "kmarxican",
+  "version": "0.3.0",
+  "publisher": "The-A-Themes",
   "galleryBanner": {
     "color": "#0F192A",
     "theme": "dark"
