@@ -83,7 +83,7 @@
     "sideBarTitle.foreground": "#D0D0D0",
     "minimap.background": "#0F192A",
     "minimap.errorHighlight": "#F92672CC",
-    "minimap.findMatchHighlight": "#AE81FFCC",
+    "minimap.findMatchHighlight": "#314D67FC",
     "minimap.selectionHighlight": "#314D67CC",
     "minimap.warningHighlight": "#FFAA3ECC",
     "minimapGutter.addedBackground": "#1DC116",
@@ -168,7 +168,7 @@
     "editorOverviewRuler.bracketMatchForeground": "#FFFFFF",
     "editorOverviewRuler.deletedForeground": "#F9267299",
     "editorOverviewRuler.errorForeground": "#F92672",
-    "editorOverviewRuler.findMatchForeground": "#AE81FFCC",
+    "editorOverviewRuler.findMatchForeground": "#314D67FC",
     "editorOverviewRuler.infoForeground": "#428BDD",
     "editorOverviewRuler.modifiedForeground": "#428BDD99",
     "editorOverviewRuler.rangeHighlightForeground": "#25354099",
@@ -371,7 +371,7 @@
     "symbolIcon.moduleForeground": "#44DDDD",
     "symbolIcon.namespaceForeground": "#44DDDD",
     "symbolIcon.nullForeground": "#E83737",
-    "symbolIcon.numberForeground": "#FFAA3E",
+    "symbolIcon.numberForeground": "#AE81FF",
     "symbolIcon.objectForeground": "#44DDDD",
     "symbolIcon.operatorForeground": "#8FA7B8",
     "symbolIcon.packageForeground": "#44DDDD",
@@ -382,7 +382,7 @@
     "symbolIcon.structForeground": "#44DDDD",
     "symbolIcon.textForeground": "#D1EDFF",
     "symbolIcon.typeParameterForeground": "#44DDDD",
-    "symbolIcon.unitForeground": "#FFAA3E",
+    "symbolIcon.unitForeground": "#AE81FF",
     "symbolIcon.variableForeground": "#FFAA3E",
 
     "editorLightBulb.foreground": "#FFAA3E",
@@ -578,7 +578,7 @@
         "keyword.other.unit"
       ],
       "settings": {
-        "foreground": "#FFAA3E"
+        "foreground": "#AE81FF"
       }
     },
     {
