@@ -68,11 +68,11 @@
     "list.warningForeground": "#FFAA3E",
     "activityBar.background": "#0A1220",
     "activityBar.border": "#1A2A3D",
-    "activityBar.foreground": "#428BDD",
+    "activityBar.foreground": "#FFAA3E",
     "activityBar.inactiveForeground": "#6F8497",
-    "activityBar.activeBorder": "#428BDD",
+    "activityBar.activeBorder": "#FFAA3E",
     "activityBar.activeBackground": "#0F192A",
-    "activityBarBadge.background": "#E83737",
+    "activityBarBadge.background": "#9E1B1B",
     "activityBarBadge.foreground": "#F8F8F0",
     "sideBar.background": "#0C1524",
     "sideBar.border": "#1A2A3D",
@@ -97,12 +97,12 @@
     "editorGroupHeader.tabsBorder": "#1A2A3D",
     "editorGroupHeader.border": "#1A2A3D",
     "tab.activeBackground": "#0F192A",
-    "tab.activeBorder": "#428BDD",
-    "tab.activeBorderTop": "#428BDD",
+    "tab.activeBorder": "#FFAA3E",
+    "tab.activeBorderTop": "#FFAA3E",
     "tab.activeForeground": "#D1EDFF",
     "tab.border": "#1A2A3D",
     "tab.hoverBackground": "#132238",
-    "tab.hoverForeground": "#FFFFFF",
+    "tab.hoverForeground": "#FFAA3E",
     "tab.inactiveBackground": "#0A1220",
     "tab.inactiveForeground": "#8FA7B8",
     "tab.lastPinnedBorder": "#253540",
@@ -175,7 +175,7 @@
     "editorOverviewRuler.selectionHighlightForeground": "#314D67CC",
     "editorOverviewRuler.warningForeground": "#FFAA3E",
     "editorRuler.foreground": "#253540",
-    "editorUnnecessaryCode.opacity": "#00000099",
+    "editorUnnecessaryCode.opacity": "#000000A5",
     "editorWarning.foreground": "#FFAA3E",
     "editorWhitespace.foreground": "#253540",
     "editorWidget.background": "#0A1220",
@@ -317,7 +317,7 @@
     "gitDecoration.conflictingResourceForeground": "#FFAA3E",
     "gitDecoration.deletedResourceForeground": "#F92672",
     "gitDecoration.ignoredResourceForeground": "#6F8497",
-    "gitDecoration.modifiedResourceForeground": "#428BDD",
+    "gitDecoration.modifiedResourceForeground": "#FFAA3E",
     "gitDecoration.renamedResourceForeground": "#44DDDD",
     "gitDecoration.stageDeletedResourceForeground": "#F92672",
     "gitDecoration.stageModifiedResourceForeground": "#44DDDD",
@@ -373,7 +373,7 @@
     "symbolIcon.nullForeground": "#E83737",
     "symbolIcon.numberForeground": "#AE81FF",
     "symbolIcon.objectForeground": "#44DDDD",
-    "symbolIcon.operatorForeground": "#8FA7B8",
+    "symbolIcon.operatorForeground": "#FFD37A",
     "symbolIcon.packageForeground": "#44DDDD",
     "symbolIcon.propertyForeground": "#A6E22E",
     "symbolIcon.referenceForeground": "#AE81FF",
@@ -455,7 +455,7 @@
         "punctuation.definition.comment"
       ],
       "settings": {
-        "foreground": "#428BDD",
+        "foreground": "#547194",
         "fontStyle": "italic"
       }
     },
@@ -511,16 +511,43 @@
       }
     },
     {
-      "name": "Operator, Punctuation, Brackets",
+      "name": "Punctuation, Brackets, Structural Symbols",
       "scope": [
-        "keyword.operator",
         "punctuation",
         "punctuation.separator",
         "punctuation.terminator",
         "punctuation.section",
-        "punctuation.definition",
         "meta.brace",
         "meta.delimiter"
+      ],
+      "settings": {
+        "foreground": "#8FA7B8"
+      }
+    },
+    {
+      "name": "Unified Gold Operators",
+      "scope": [
+        "keyword.operator",
+        "keyword.operator.assignment",
+        "keyword.operator.arithmetic",
+        "keyword.operator.relational",
+        "keyword.operator.comparison",
+        "keyword.operator.logical",
+        "keyword.operator.ternary",
+        "keyword.operator.expression",
+        "storage.type.function.arrow"
+      ],
+      "settings": {
+        "foreground": "#FFD37A"
+      }
+    },
+    {
+      "name": "String Quotes Protection",
+      "scope": [
+        "punctuation.definition.string.begin",
+        "punctuation.definition.string.end",
+        "punctuation.definition.string.template.begin",
+        "punctuation.definition.string.template.end"
       ],
       "settings": {
         "foreground": "#8FA7B8"
@@ -536,7 +563,7 @@
         "punctuation.definition.tag.end.html"
       ],
       "settings": {
-        "foreground": "#444499"
+        "foreground": "#E83737"
       }
     },
     {
@@ -894,7 +921,6 @@
         "foreground": "#44DDDD"
       }
     },
-
     {
       "name": "Types, Enums, Namespaces",
       "scope": [
@@ -928,15 +954,6 @@
       ],
       "settings": {
         "foreground": "#AE81FF"
-      }
-    },
-    {
-      "name": "Logical Operators",
-      "scope": [
-        "keyword.operator.logical"
-      ],
-      "settings": {
-        "foreground": "#E83737"
       }
     },
     {
@@ -1003,7 +1020,6 @@
         "foreground": "#44DDDD"
       }
     },
-
     {
       "name": "Markdown - Plain",
       "scope": [
@@ -1217,7 +1233,7 @@
     "method": "#44DDDD",
     "namespace": "#44DDDD",
     "number": "#AE81FF",
-    "operator": "#8FA7B8",
+    "operator": "#FFD37A",
     "parameter": "#FFAA3E",
     "property": "#A6E22E",
     "property.readonly": "#AE81FF",
